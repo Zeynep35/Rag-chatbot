@@ -26,6 +26,30 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+.venv/
+env/
+ENV/
+
+# VSCode
+.vscode/
+
+# Config files
+.pyenc.cfg
+
+# Mac/Windows/Linux sistem dosyaları
+.DS_Store
+Thumbs.db
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
